@@ -19,7 +19,7 @@ with the visual component of applications
 ```
 const  generateRange = (min, max, step) => {
    let arr = [];
-   for (let i = min; i <= max; i += step) {
+   for (let i = min; i <= max; i = i + step) {
    arr.push(i)
 }
    return arr

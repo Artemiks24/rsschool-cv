@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cv</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/rsschool-cv/css/normalize.css">
+    <link rel="icon" href="/rsschool-cv/img/favicon.ico">
+    <link rel="stylesheet" href="/rsschool-cv/css/style.css">    
+</head>
+<body>
+   <header class="header"> 
+    <div class="container"> 
+        <button class="header__burger-btn" id="burger">
+            <span></span><span></span><span></span>
+        </button>
+        <nav class="nav">  
+                <ul class="nav__list">
+                    <li class="nav__item"><a  class="nav__link" href="#contacts">Contacts</a></li>
+                    <li class="nav__item"><a  class="nav__link" href="#summary">Summary</a></li>
+                    <li class="nav__item"><a  class="nav__link" href="#skills">Skills</a></li>
+                    <li class="nav__item"><a  class="nav__link" href="#code">Code</a></li>
+                    <li class="nav__item"><a  class="nav__link" href="#courses">Courses</a></li>
+                    <li class="nav__item"><a  class="nav__link" href="#projects">Projects</a></li>
+                    <li class="nav__item"><a  class="nav__link" href="#education">Education</a></li>
+                    <li class="nav__item"><a  class="nav__link" href="#languages">Languages</a></li>
+                </ul>
+        </nav> 
+    </div>
+    </header>
+            <section class="profile" id="profile">
+                <div class="container">
+                    <div class="profile-info">
+                       <img class="profile-logo" src="/rsschool-cv/img/profile-img.jpg" alt="profile-logo">
+                        <div class="wrapper-titles">
+                            <h1 class="profile-title">Artemiks24</h1>
+                            <h3 class="profile-subtitle">future front-end developer</h3>  
+                        </div>                     
+                    </div>
+                </div>
+            </section>  
+            <main class="main">
+                <div class="container main-container">
+                 <section class="section contacts" id="contacts">
+                    <h3 class="title contacts-title">contacts</h3>
+                    <nav class="contacts__nav">
+                        <ul class="contacts__nav-list">
+                            <li class="contacts__nav-item"><a class="contacts__nav-link" href="https://t.me/AstEr">Telegram</a></li>
+                            <li class="contacts__nav-item"><a class="contacts__nav-link" href="https://discord.com/channels/516715744646660106/@home">Discord</a></li>
+                            <li class="contacts__nav-item"><a class="contacts__nav-link" href="mailto:pff.artyom@yandex.ru">Email</a></li>
+                            <li class="contacts__nav-item"><a class="contacts__nav-link" href="https://github.com/Artemiks24">Github</a></li>
+                        </ul>
+                    </nav>        
+                 </section>
+                 <section class="section summary" id="summary">
+                    <h3 class="title summary-title">summary</h3>
+                    <p class="summary-text">I love writing code. I have a big goal and I am sure that I will achieve it. I program all my free time trying to
+                    broaden my horizons. my goal is to become a front-end developer because I love working with the visual component of
+                    applications</p>
+                 </section>
+                 <section class="section Skills" id="skills">
+                    <h3 class="title Skills-title">Skills</h3>
+                    <nav class="Skills__nav">
+                        <ul class="Skills__nav-list">
+                            <li class="Skills__nav-item section-item">HTML5</li>
+                            <li class="Skills__nav-item section-item">CSS3</li>
+                            <li class="Skills__nav-item section-item">JavaScript</li>
+                            <li class="Skills__nav-item section-item">Figma</li>
+                            <li class="Skills__nav-item section-item">Github</li>
+                        </ul>
+                    </nav>        
+                 </section>
+                 <section class="section code" id="code">
+                    <h3 class="title code-title">code</h3>
+                    <pre class="pre">
+const  generateRange = (min, max, step) => {
+   let arr = [];
+   for (let i = min; i <= max; i += step) {
+   arr.push(i)
+}
+   return arr
+}                           
+                    </pre>
+                 </section>
+                 <section class="section courses" id="courses">
+                    <h3 class="title courses-title">courses</h3>
+                    <nav class="courses__nav">
+                        <ul class="courses__nav-list">
+                            <li class="courses__nav-item section-item"><a class="courses__nav-link" href="https://ru.hexlet.io/courses/introduction_to_programming">HEXLET-Введение в программирование</a></li>
+                            <li class="courses__nav-item section-item"><a class="courses__nav-link" href="https://lk.result.school/teach/control/stream">Result School - HTML & CSS</a></li>
+                            <li class="courses__nav-item section-item"><a class="courses__nav-link" href="https://code-basics.com/ru/languages/javascript">Code-basics - JavaScript</a></li>                           
+                        </ul>
+                    </nav>        
+                 </section>
+                 <section class="section projects" id="projects">
+                    <h3 class="title projects-title">projects</h3>
+                    <nav class="projects__nav">
+                        <ul class="projects__nav-list">
+                            <li class="projects__nav-item section-item"><a class="projects__nav-link" href="https://codepen.io/artos123/details/MWXLGQZ">Slider</a></li>
+                            <li class="projects__nav-item section-item"><a class="projects__nav-link" href="https://codepen.io/artos123/details/zYaejjg">Board</a></li>
+                            <li class="projects__nav-item section-item"><a class="projects__nav-link" href="https://codepen.io/artos123/pen/rNKYggp">Aim Training</a></li>                          
+                        </ul>
+                    </nav>
+                 </section>
+                 <section class="section education" id="education">
+                    <h3 class="title education-title">education</h3>
+                    <p class="education-text">Gomel Technical University</p>
+                 </section>
+                 <section class="section languages" id="languages">
+                    <h3 class="title Languages-title">Languages</h3>
+                     <nav class="languages__nav">
+                        <ul class="languages-list">
+                            <li class="languages-item section-item">Russian - Native</li>
+                            <li class="languages-item section-item">Ukrainian - Intermediate</li>
+                            <li class="languages-item section-item">English - Pre-Intermediate</li>
+                        </ul>
+                     </nav>
+                 </section>
+                </div>
+            </main>
+            <footer class="footer">
+                <div class="container footer-container">
+                    <div class="footer__info">
+                        2022
+                        <a href="https://github.com/Artemiks24">Artemiks24</a>
+                    </div>
+                    <a  href="https://app.rs.school/">
+                    <img class="footer__logo" src="/rsschool-cv/img/footer-logo.svg" alt="logo">
+                    </a>
+                </div>
+            </footer>
+            <script src="/rsschool-cv/js/main.js"></script>
+</body>
+</html>
+

@@ -1,6 +1,6 @@
 # Artemiks24
+![profile-logo!](/img/profile-img.jpg)
 ## future front-end developer
-____
 # Contacts
 - [Telegram:](https://t.me/AstEr)
 - [Discord:](https://discord.com/channels/516715744646660106/@home)
@@ -30,4 +30,12 @@ const  generateRange = (min, max, step) => {
 - [HEXLET-Введение в программирование](https://ru.hexlet.io/courses/introduction_to_programming)
 - [Result School - HTML & CSS](https://lk.result.school/teach/control/stream)
 - [Code-basics - JavaScript](https://code-basics.com/ru/languages/javascript)
+#  Education
+Gomel Technical University
+# Languages
+Russian - Native
+Ukrainian - Intermediate
+English - Pre-Intermediate
+
+
 

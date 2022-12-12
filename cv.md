@@ -1,5 +1,4 @@
 # Artemiks24
-![profile-logo!](/img/profile-img.jpg)
 ## future front-end developer
 # Contacts
 - [Telegram:](https://t.me/AstEr)
@@ -33,9 +32,9 @@ const  generateRange = (min, max, step) => {
 #  Education
 Gomel Technical University
 # Languages
-Russian - Native
-Ukrainian - Intermediate
-English - Pre-Intermediate
+- Russian - Native
+- Ukrainian - Intermediate
+- English - Pre-Intermediate
 
 
 
